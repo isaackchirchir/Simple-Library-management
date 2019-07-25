@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5cae9d14-83a7-4db7-85b4-29a7c617a58e">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from books]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<rectangle>
+				<reportElement x="176" y="15" width="285" height="47" uuid="3d9eb267-96c1-4da1-8d52-de4c224710db"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="226" y="25" width="153" height="20" uuid="e0bebc24-3f46-4428-8367-a753bf186233">
+					<property name="net.sf.jasperreports.export.pdf.tag.h1" value="start"/>
+				</reportElement>
+				<box topPadding="3" leftPadding="3"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[   Library Books Report  Details]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="34" splitType="Stretch">
+			<staticText>
+				<reportElement x="13" y="14" width="43" height="20" uuid="1a9034ea-315f-4e16-be4e-a22e7faaf476"/>
+				<box topPadding="4" leftPadding="6"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="66" y="14" width="64" height="20" uuid="ec7a0ec6-8c81-4ca0-92b6-48be8f5c05e8"/>
+				<box topPadding="4" leftPadding="6"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[studentid]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="14" width="85" height="20" uuid="61908f9b-e846-48c5-be5e-a9f5a634518b"/>
+				<box topPadding="4" leftPadding="6"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[studentname]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="236" y="14" width="60" height="20" uuid="95836f3a-402d-4a7e-a494-4b41d6bc2abe"/>
+				<box topPadding="4" leftPadding="6"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[bookid]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="308" y="14" width="55" height="20" uuid="20811d59-cb95-4166-a5d8-f408c877c387"/>
+				<box topPadding="4" leftPadding="6"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[booktitle]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="379" y="14" width="72" height="20" uuid="bdd08b2f-8b80-4ca8-b062-ab7880c6a47a"/>
+				<box topPadding="4" leftPadding="6"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[dateissue]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="461" y="14" width="69" height="20" uuid="f70095cf-0d12-475c-8ba6-4c0cd234f592"/>
+				<box topPadding="4" leftPadding="6"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[returndate]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="190" splitType="Stretch">
+			<staticText>
+				<reportElement x="13" y="19" width="51" height="20" uuid="317b2a9f-fe7d-4a25-b8fc-845224ecd9e1"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="64" y="19" width="66" height="20" uuid="e71abd88-7a45-47f9-9017-5e21becc2930"/>
+				<text><![CDATA[19j01acs036]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="19" width="66" height="20" uuid="21eb011d-03b9-4b6f-99af-3b0d4e7b081d"/>
+				<text><![CDATA[isaack kiguti]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="231" y="19" width="66" height="20" uuid="a4ebfc13-4def-4cc7-9389-3d29f6fbb66f"/>
+				<text><![CDATA[19j023naz2016]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="308" y="19" width="66" height="20" uuid="8b79e4be-7fe6-4a8e-9ce4-0fc4883b577e"/>
+				<text><![CDATA[object oriented]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="385" y="19" width="66" height="20" uuid="9b296fae-263d-4141-9f85-71f461ddb5a7"/>
+				<text><![CDATA[21/10/2019]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="464" y="19" width="66" height="20" uuid="b3434642-748f-4760-a158-1eb115a54fac"/>
+				<text><![CDATA[28/10/2019]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="44" width="51" height="20" uuid="398c768e-bda9-4224-a233-75678563b0ce"/>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="66" y="44" width="66" height="20" uuid="4e85d8dd-72e2-487d-9458-f5d0bede58ba"/>
+				<text><![CDATA[19j01acs037]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="44" width="66" height="20" uuid="9ac3f072-85c2-4d68-96ab-0e4ed23da410"/>
+				<text><![CDATA[joseck asuma]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="236" y="44" width="66" height="20" uuid="49d8161f-9bd7-407c-8b16-e6782f69e1da"/>
+				<text><![CDATA[19j023naz2016]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="313" y="44" width="66" height="20" uuid="832a9e5a-bc22-48f7-89ff-69b3f0576106"/>
+				<text><![CDATA[data communication]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="385" y="44" width="66" height="20" uuid="d71c8b6b-396e-47b0-97d3-c07ca8d0e00f"/>
+				<text><![CDATA[01/10/2019]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="464" y="44" width="66" height="20" uuid="e602bf88-a985-417b-bce9-ca5e72d51330"/>
+				<text><![CDATA[10/10/2019]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="74" width="51" height="20" uuid="e1d6d8c2-5f8d-4a73-a37d-3f196291cefa"/>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="66" y="74" width="66" height="20" uuid="757974c7-dc1f-438b-8825-1b5151063217"/>
+				<text><![CDATA[19j01acs038]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="74" width="66" height="20" uuid="872bdf15-52fd-4451-b3aa-42fc9727cfe6"/>
+				<text><![CDATA[hillary michira]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="236" y="74" width="66" height="20" uuid="f87212ff-8a22-46c3-8eda-34c27a0e9e5c"/>
+				<text><![CDATA[14m023naz2016]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="313" y="74" width="66" height="20" uuid="3fbeba81-424f-4121-8de3-f1cf3898922c"/>
+				<text><![CDATA[computer secutity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="385" y="74" width="66" height="20" uuid="41a5c6a6-416b-4f49-988d-b3bfa12449d3"/>
+				<text><![CDATA[20/07/2020]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="464" y="74" width="66" height="20" uuid="ad0fc9d6-0b03-466c-ae45-91596a7605f8"/>
+				<text><![CDATA[30/07/2020]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
